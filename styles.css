@@ -41,6 +41,9 @@ hr{
 }
 
 /**lists**/
+.list-space{
+    padding: 1rem;
+}
 .list-non-bullet{
     list-style: none;
 }
@@ -73,6 +76,7 @@ hr{
 /**Header**/
 .hero{
     padding: 2rem;
+    padding-top: 5rem;
 }
 .hero .hero-img{
     width: 350px;
