@@ -67,6 +67,10 @@ hr{
     font-weight: bold;
     font-size: 1.1rem;
 }
+.navigation .nav-name-brand{
+    font-weight: bold;
+    font-size: 2rem;
+}
 .navigation .link{
     color: white;
 }
