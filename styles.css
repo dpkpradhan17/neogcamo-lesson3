@@ -120,3 +120,7 @@ hr{
     font-size: large;
 }
 
+.skill-prop{
+    color:var(--primary-color);
+    font-weight: bold;
+}
