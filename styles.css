@@ -7,7 +7,9 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
-
+hr{
+    margin: 2rem;
+}
 /**Container**/
 .container {
     padding-left:1rem;
@@ -32,5 +34,7 @@ body{
 .link-secondary{
     color: var(--primary-color);
     border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
+    border: 0.5px solid var(--primary-color);
 }
+
+
