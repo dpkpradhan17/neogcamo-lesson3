@@ -8,6 +8,7 @@
 
 body{
     font-family: 'Work Sans', sans-serif;
+    margin:0px;
 }
 hr{
     margin: 2rem;
@@ -97,3 +98,17 @@ hr{
 .ow{
     background-color: var(--offwhite);
 }
+/**Footer**/
+.footer{
+    background-color: var(--primary-color);
+    padding:2rem 1rem;
+    text-align: center;
+    color: white;
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+
