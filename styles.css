@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
+
+:root{
+    --primary-color: #f43f5e;
+}
+
 body{
     font-family: 'Work Sans', sans-serif;
 }
 
+/**Container**/
 .container {
     padding-left:1rem;
     padding-right:1rem;
@@ -10,4 +16,21 @@ body{
 .container-center{
     max-width: 600px;
     margin: auto;
+}
+
+/**links**/
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color:white;
+
+}
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
 }
