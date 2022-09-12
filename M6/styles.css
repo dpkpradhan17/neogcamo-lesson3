@@ -168,8 +168,6 @@ hr{
     color: var(--primary-color)
 }
 .head{
-    border:1px solid transparent;
-    display:block;
     color:var(--primary-color);
     width:70%;
     font-size:1.5rem;
