@@ -1,0 +1,38 @@
+:root{
+
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+}
+.heading{
+    text-align: center;
+}
+
+input,label{
+    display: block;
+    padding: 0.5rem 0.5rem;
+    margin: auto;
+    width: 50%;
+
+}
+input{
+    margin-bottom: 1.5rem;
+}
+button{
+    padding:0.3rem 0.3rem;
+    width:20%;
+    display:block;
+    margin: auto;
+    font-size: medium;
+    border-radius: 0.5rem;
+}
+
+#output-box{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
