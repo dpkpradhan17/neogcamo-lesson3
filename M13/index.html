@@ -7,12 +7,48 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <main>
+    <nav class="navigation container">
+      <div class="nav-name-brand">DEEPAK PRADHAN</div>
+      <div class="nav-brand">Cyber-Bud | Web-Dev</div>
+      <ul class="list-non-bullet nav-pills">
+          <li class="list-item-inline">
+              <a class="link " href="/">Home</a>
+          </li>
+          <li class="list-item-inline">
+              <a class="link link-active" href="/projects.html">Projects</a>
+          </li>
+          <li class="list-item-inline">
+              <a class="link" href="/blogs.html">Blog</a>
+          </li>
+      </ul>
+  </nav>
+
+    <main class="container container-center">
       <h2>Palindrome Birthday!</h2>
-      <input id="bday-input" type="date" />
+      <img class="image" src="/images/M13.svg" />
+      <label for="date">Enter Date <input id="bday-input" type="date" /></label>
+      
       <button id="show-btn" >Show</button>
       <p id="result"></p>
     </main>
+
+    <footer class="footer">
+      <div class="footer-header">Connect with me</div>
+      <ul class="list-non-bullet">
+          <li class="list-item-inline">
+              <a class="link" href="https://github.com/dpkpradhan17">GitHub</a>
+          </li>
+          <li class="list-item-inline">
+              <a class="link" href="https://twitter.com/dpkpradhan17">Twitter</a>
+          </li>
+          <li class="list-item-inline">
+              <a class="link" href="https://www.linkedin.com/in/dpkpradhan17">LinkedIn</a>
+          </li>
+          <li class="list-item-inline">
+              <a class="link" href="mailto:dpkpradhan17@gmail.com?subject=This mail is regarding">Email</a>
+          </li>
+      </ul>
+  </footer>
     <script src="script.js"></script>
   </body>
 </html>
