@@ -134,7 +134,7 @@ hr{
 
 
 .blog3{
-    margin:2rem;
+    margin:0.5rem;
 }
 table{
     padding: 1rem;
@@ -147,7 +147,7 @@ td{
 }
 img{
     height: 220px;
-    width: 150px;
+    width: 100px;
 }
 button{
     background-color: var(--primary-color);
