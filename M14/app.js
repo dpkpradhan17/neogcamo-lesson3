@@ -21,13 +21,13 @@ function clickHandler(){
 function calculateProfitAndLoss(initial, stock, current){
     if(initial > current){
         var loss= (initial-current)*stock;
-        var lossPercentage = (loss/initial)*100;
+        var lossPercentage = (loss/initial*stock)*100;
         showMessage(`😭😖Oops you are in loss of ${loss} and loss percentage is ${lossPercentage}%`)
     }
     else if(current>initial){
         var profit = (current-initial)*stock;
-        var profitPercentage =(profit/initial)*100;
-        showMessage(`🥳🥳Yay! you are in profit of ${profit} and profit percentage is ${profitPercentage}`);
+        var profitPercentage =(profit/initial*stock)*100;
+        showMessage(`🥳🥳Yay! you are in profit of ${profit} and profit percentage is ${profitPercentage}%`);
     }
     else{
         showMessage("🙂No Pain No Gain🙂");
